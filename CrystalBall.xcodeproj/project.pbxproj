@@ -21,6 +21,7 @@
 		E1358E381973DCB3009CDE92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1358E1A1973DCB3009CDE92 /* UIKit.framework */; };
 		E1358E401973DCB3009CDE92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1358E3E1973DCB3009CDE92 /* InfoPlist.strings */; };
 		E1358E421973DCB3009CDE92 /* CrystalBallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1358E411973DCB3009CDE92 /* CrystalBallTests.m */; };
+		E1358E4D19767E94009CDE92 /* MKCrystallBall.m in Sources */ = {isa = PBXBuildFile; fileRef = E1358E4C19767E94009CDE92 /* MKCrystallBall.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E1358E3D1973DCB3009CDE92 /* CrystalBallTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrystalBallTests-Info.plist"; sourceTree = "<group>"; };
 		E1358E3F1973DCB3009CDE92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E1358E411973DCB3009CDE92 /* CrystalBallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrystalBallTests.m; sourceTree = "<group>"; };
+		E1358E4B19767E94009CDE92 /* MKCrystallBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCrystallBall.h; sourceTree = "<group>"; };
+		E1358E4C19767E94009CDE92 /* MKCrystallBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCrystallBall.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +115,13 @@
 		E1358E1C1973DCB3009CDE92 /* CrystalBall */ = {
 			isa = PBXGroup;
 			children = (
-				E1358E251973DCB3009CDE92 /* MKAppDelegate.h */,
-				E1358E261973DCB3009CDE92 /* MKAppDelegate.m */,
 				E1358E281973DCB3009CDE92 /* Main.storyboard */,
 				E1358E2B1973DCB3009CDE92 /* MKViewController.h */,
 				E1358E2C1973DCB3009CDE92 /* MKViewController.m */,
 				E1358E2E1973DCB3009CDE92 /* Images.xcassets */,
 				E1358E1D1973DCB3009CDE92 /* Supporting Files */,
+				E1358E4B19767E94009CDE92 /* MKCrystallBall.h */,
+				E1358E4C19767E94009CDE92 /* MKCrystallBall.m */,
 			);
 			path = CrystalBall;
 			sourceTree = "<group>";
@@ -126,6 +129,8 @@
 		E1358E1D1973DCB3009CDE92 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E1358E261973DCB3009CDE92 /* MKAppDelegate.m */,
+				E1358E251973DCB3009CDE92 /* MKAppDelegate.h */,
 				E1358E1E1973DCB3009CDE92 /* CrystalBall-Info.plist */,
 				E1358E1F1973DCB3009CDE92 /* InfoPlist.strings */,
 				E1358E221973DCB3009CDE92 /* main.m */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1358E4D19767E94009CDE92 /* MKCrystallBall.m in Sources */,
 				E1358E271973DCB3009CDE92 /* MKAppDelegate.m in Sources */,
 				E1358E2D1973DCB3009CDE92 /* MKViewController.m in Sources */,
 				E1358E231973DCB3009CDE92 /* main.m in Sources */,

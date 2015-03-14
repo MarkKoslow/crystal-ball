@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class MKCrystallBall;
+
 @interface MKViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet UILabel *myPredictionLabel;
+@property (strong, nonatomic) MKCrystallBall* myCrystalBall;
+// - (IBAction)buttonPressed;
+- (void) makePrediction;
+@property (strong, nonatomic) IBOutlet UIImageView *backgroundImageView;
 
 @end
